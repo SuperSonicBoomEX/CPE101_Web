@@ -1,0 +1,269 @@
+@font-face {
+    font-family: genshinfont;
+    src: url(genshinfont.ttf);
+}
+body{
+    margin: 0px;
+    background-image: url(Img/wp7486978.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#headtext1{
+    font-size: 100px;
+    font-family: genshinfont;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.499);
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.69);
+}
+#box1{
+    background-color:rgba(0, 0, 0, 0.438);
+    background-image: linear-gradient(to top,black,rgba(0, 0, 0, 0));
+    width: auto;
+    height: 90vh;
+}
+#circle1{
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position:absolute;
+    top:425px;
+    margin-left: 10%;
+}
+#box2{
+    background-color:rgb(255, 255, 255);
+    width: 550px;
+    height: 350px;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(153, 213, 224);
+}
+#box3{
+    background-color:rgb(255, 255, 255);
+    width: 1200px;
+    height: 350px;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(153, 213, 224);
+}
+#box4{
+    background-color:rgb(255, 255, 255);
+    width: 600px;
+    height: 350px;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(153, 213, 224);
+}
+#box5{
+    position:absolute;
+    background-color:rgb(255, 255, 255);
+    width: 600px;
+    height: 350px;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(240, 255, 187);
+    right: 140px;
+    top: 658px;
+}
+#box6{
+    background-color:rgb(255, 255, 255);
+    width: 1200px;
+    height: 350px;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(153, 213, 224);
+}
+#profilepic{
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(81, 196, 238);
+    padding:0px;
+    margin:0px;
+    overflow: hidden;
+    position:absolute;
+    top: 500px;
+    right: 20px;
+    font-family: genshinfont;
+    font-size: 40px;
+    border-radius: 25px;
+    border:3px solid;
+    border-color: white;
+    background-image: linear-gradient(to bottom, rgb(130, 255, 255), rgba(0, 255, 255, 0), rgb(0, 102, 128));
+
+}
+.navbar a{
+    text-decoration: none;
+    color:azure;
+    padding: 30px;
+    display:block;
+
+}
+.navbar a:hover{
+    background-color: rgb(5, 255, 255);
+
+}
+.navbar a:active{
+    background-color: blue;
+    color:rgb(255, 255, 134);
+}
+.navbar li{
+    float:left;
+}
+#header1{
+    font-size: 60px;
+    font-weight:bold;
+    font-family: genshinfont;
+    margin-left: 10%;
+    position:relative;
+    top:100px;
+    color:white;
+    text-shadow: 3px 3px 10px yellow, -3px -3px 10px cyan;
+    
+}
+#text1{
+    font-size: 20px;
+    font-family: genshinfont;
+    margin-left: 10%;
+    margin-right: 10%;
+    color:rgb(0, 0, 0);
+    position:relative;
+    top:35px;
+}
+#pic1{
+    position:absolute;
+    right: 120px;
+    top: 820px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(240, 255, 187);
+}
+#logo1{
+    border-radius: 50%;
+    height:130px;
+    width:130px;
+    margin:10px;
+}
+#logo2{
+    border-radius: 50%;
+    height:130px;
+    width:130px;
+    margin:10px;
+    position:relative;
+    left:400px;
+}
+#textlogo1{
+    position:absolute;
+    left: 330px;
+    top: 850px;
+    font-family: genshinfont;
+    font-size: 25px;
+}
+
+#textlogo2{
+    position:absolute;
+    right: 240px;
+    top: 850px;
+    font-family: genshinfont;
+    font-size: 25px;
+}
+#textlogo3{
+    position:absolute;
+    left: 325px;
+    top: 1030px;
+    font-family: genshinfont;
+    font-size: 25px;
+}
+
+#textlogo4{
+    position:absolute;
+    right: 200px;
+    top: 1020px;
+    font-family: genshinfont;
+    font-size: 25px;
+    width:500px;
+    text-align: center;
+}
+#skilltext1{
+    position:absolute;
+    left: 370px;
+    top: 800px;
+    font-family: genshinfont;
+    font-size: 40px;
+}
+#skilltext2{
+    position:absolute;
+    right: 160px;
+    top: -10px;
+    font-family: genshinfont;
+    font-size: 40px;
+}
+#logo3{
+    border-radius: 50%;
+    height:130px;
+    width:130px;
+    margin:10px;
+    position:relative;
+    left:70px;
+    top:120px;
+}
+#logo4{
+    height:120px;
+    width:120px;
+    margin:10px;
+    position:relative;
+    right:-15px;
+    top:120px;
+}
+#logo5{
+    height:120px;
+    width:120px;
+    margin:10px;
+    position:relative;
+    right:-15px;
+    top:120px;
+}
+#logo6{
+    height:120px;
+    width:120px;
+    margin:10px;
+    position:relative;
+    left:80px;
+    top:80px;
+    padding: 30px;
+}
+footer{
+    color:white;
+    background-color: black;
+    font-family: genshinfont;
+    font-size: 15px;
+}
+#goback{
+    position: relative;
+    margin-left: 50%;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#goback:hover{
+    color:cyan;
+}
+#goback:active{
+    color:blue;
+}
